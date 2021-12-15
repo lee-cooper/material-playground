@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
-  declarations: [AppComponent, AngularMaterialModule],
-  imports: [BrowserModule, BrowserAnimationsModule],
+  declarations: [AppComponent],
+  imports: [BrowserModule, BrowserAnimationsModule, AngularMaterialModule],
   providers: [],
   bootstrap: [AppComponent],
 })
