@@ -1,37 +1,3 @@
-.header {
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  min-height: 3.5rem;
-  background-color: rgb(240, 215, 250);
-  padding: 0 1rem;
-}
-
-.site-title {
-  font-size: 1.5rem;
-  display: flex;
-  align-items: center;
-}
-
-.navigation {
-  display: flex;
-  align-items: center;
-}
-
-.navigation > ul {
-  display: flex;
-  gap: 2rem;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-.navigation li {
-  display: flex;
-  align-items: stretch;
-}
-
-.navigation a {
-  text-decoration: none;
-  color: black;
+.menu-spacer {
+  flex: 1 1 auto;
 }
